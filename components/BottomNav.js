@@ -27,7 +27,7 @@ const BottomNav = props => {
                 router.push('/')
                 break;
         }
-    }, [activeTabs, router])
+    }, [activeTabs])
 
     return (
         <div className={`${Styles.bottomNav}`}>
